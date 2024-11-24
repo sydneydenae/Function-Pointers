@@ -14,8 +14,8 @@ int myOperation (int a, int b);
 
 
 int main (int argc, char *argv[]){
-	int a = 1;
-	int b = 2;
+	int a = 6;
+	int b = 3;
 	fprintf(stderr, "Operand ‘a’ :%d |Operand ‘b’ :%d\n", a, b);
 	fprintf(stderr, "Specify the operand to perform (0 : add | 1 : subtract | 2 : multiply | 3 : divide | 4 : exit)");
 
