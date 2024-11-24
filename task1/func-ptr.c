@@ -1,12 +1,11 @@
+#define _GNU_SOURCE
 #include<stdio.h>
 #include<unistd.h>
 #include<stdlib.h>
 #include<errno.h>
 
 #include "process.h"
-#include "process.c"
 #include "util.h"
-#include "util.c"
 
 
 #define DEBUG 1			//change this to 1 to enable verbose output

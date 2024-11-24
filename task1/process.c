@@ -1,5 +1,6 @@
 #include "process.h"
 
+
 void process_ctr(Process * p, int pid, int arrival_time, int priority)
 {
 	p->pid = pid;
